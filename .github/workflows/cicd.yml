@@ -52,5 +52,3 @@ jobs:
       run: make test
     - name: Format with Black
       run: make format
-    - name: deploy
-      run: make deploy
