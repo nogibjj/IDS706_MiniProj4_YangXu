@@ -2,6 +2,19 @@
 
 This repository is a continuation of the IDS706 course assignments, now focusing on Mini Project 4. Building upon the foundational work from previous assignments, this project introduces testing across multiple Python versions using GitHub Actions Matrix Build.
 
+---
+## Badges for each matrix testing run
+
+[![3.8 ubuntu_latest](https://byob.yarr.is/nogibjj/rmr_62_matrix_testing/ubuntu_latest_Python_3_7)](https://github.com/nogibjj/rmr_62_matrix_testing/actions/workflows/python_ci_cd.yml)
+[![3.9 ubuntu_latest](https://byob.yarr.is/nogibjj/rmr_62_matrix_testing/ubuntu_latest_Python_3_8)](https://github.com/nogibjj/rmr_62_matrix_testing/actions/workflows/python_ci_cd.yml)
+[![3.10 ubuntu_latest](https://byob.yarr.is/nogibjj/rmr_62_matrix_testing/ubuntu_latest_Python_3_9)](https://github.com/nogibjj/rmr_62_matrix_testing/actions/workflows/python_ci_cd.yml)
+
+[![3.8 ubuntu_20_04](https://byob.yarr.is/nogibjj/rmr_62_matrix_testing/ubuntu_20_04_Python_3_7)](https://github.com/nogibjj/rmr_62_matrix_testing/actions/workflows/python_ci_cd.yml)
+[![3.9 ubuntu_20_04](https://byob.yarr.is/nogibjj/rmr_62_matrix_testing/ubuntu_20_04_Python_3_8)](https://github.com/nogibjj/rmr_62_matrix_testing/actions/workflows/python_ci_cd.yml)
+[![3.10 ubuntu_20_04](https://byob.yarr.is/nogibjj/rmr_62_matrix_testing/ubuntu_20_04_Python_3_9)](https://github.com/nogibjj/rmr_62_matrix_testing/actions/workflows/python_ci_cd.yml)
+
+---
+
 ## Overview
 
 In this project, we utilize GitHub Actions to perform continuous integration and deployment. The highlight of this project is the use of Matrix Build to test the code across multiple versions of Python on different OS environments.
